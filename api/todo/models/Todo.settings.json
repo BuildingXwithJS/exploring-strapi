@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "todos",
+  "info": {
+    "name": "todo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "done": {
+      "type": "boolean"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}
