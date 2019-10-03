@@ -29,7 +29,7 @@
       "path": "/todos",
       "handler": "Todo.create",
       "config": {
-        "policies": []
+        "policies": ["addUser"]
       }
     },
     {
