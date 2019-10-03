@@ -2,7 +2,7 @@
 
 > Free open-source tutorial on creating a simple todo list with Strapi backend
 
-This repository contains code and related materials for [exploring Strapi]() video.
+This repository contains code and related materials for [exploring Strapi](https://youtu.be/M4ZV72fl0tI) video.
 
 ## Project description
 
