@@ -5,4 +5,12 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async find(ctx) {
+    const {user} = ctx.state;
+
+    const entities = strapi.query('todo').find({user: user.id});
+
+    return entities;
+  },
+};
